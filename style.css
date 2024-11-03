@@ -1,0 +1,79 @@
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+:root {
+    --gray: #666;
+    --blue: #0974b3;
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    color: var(--gray);
+    background-color: #eeeded;
+    font-size: 16px;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--blue);
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+article {
+    border: 1px solid #ccc;
+    border-top: 5px solid var(--blue);
+    background-color: #fff;
+}
+
+.container {
+    display: block;
+}
+
+.container-1 {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.card-1 {
+    min-height: 320px;
+    max-width: 980px;
+    padding: 20px;
+}
+
+.card-2 {
+    float: left;
+    padding: 20px;
+    margin-right: 20px;
+    min-height: 400px;
+    max-width: 460px;
+}
+
+.card-3 {
+    float: right;
+    padding: 20px;
+    min-height: 400px;
+    max-width: 460px;
+}
+
+img {
+    float: left;
+    height: auto;
+    width: 150px;
+    padding-right: 20px;
+}
+
+.read-more {
+    color: rgb(98, 2, 133);
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
